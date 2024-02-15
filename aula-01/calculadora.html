@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <style>
+        body{
+            background-color: rgb(16, 131, 87);
+            color: white;
+            text-align: center;
+            font: normal 15pt Arial;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exibe operações entre dois números</h1>
+    <a href="index.html">home</a>
+    <br>
+    <a href="texto.html">texto</a>
+    <br>
+    
+    <script>
+        var n1 = parseFloat(prompt('Digite o primeiro número: '))
+        var n2 = parseFloat(prompt('Digite o segundo número: '))
+
+        var soma = n1 + n2 
+        var subtracao = n1 - n2
+        var multi = n1 * n2
+        var divisao = n1 / n2
+        
+        /*console.log('A soma é '+ soma)
+        console.log('A subtração é '+ subtracao)
+        console.log('A multiplição é '+ multi)
+        console.log('A divisão é '+ divisao)
+        */
+
+        // MOSTRANDO NA TELA DO NAVEGADOR (JANELA ==> DOCUMENT)
+        document.writeln('<p> O primeiro número é '+ n1 + '</p>') 
+        document.writeln('<p> O segundo número é '+ n2 + '</p>')
+        document.write('<br>')
+
+        //INTERPOLAÇÃO DE VALORES - TEMPLATE STRING
+        document.write(`1° número = ${n1} e 2° número = ${n2}`)
+        document.write('<br>')
+        document.write(`A soma é ${soma}, a subtração é ${subtracao}, a multiplicação é ${multi} e a divisão é ${divisao}`)
+
+        /*
+        alert('A soma é '+ soma + 
+        '\nA subtração é '+ subtracao+ 
+        '\nA multiplição é '+ multi+
+        '\nA divisão é ' + divisao)
+        */
+        
+        
+    </script>
+
+</body>
+</html>

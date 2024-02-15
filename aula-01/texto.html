@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com textos</title>
+
+    <style>
+        body{
+            background-color: hsl(352, 100%, 68%);
+            color: white;
+            text-align: center;
+            font: normal 15pt Arial;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Avaliando seu nome!</h1>
+    <a href="index.html">home</a>
+    <br>
+    <a href="calculadora.html">calculadora</a>
+    <br>
+    <script>
+        //var nome =  'Rapha Luvi'
+
+        //------Obtendo numero de caracteres de uma variavel
+        //console.log(nome.length)
+
+        //--------maiusculo
+        //console.log(nome.toUpperCase())
+
+        //-------minusculo
+        //console.log(nome.toLowerCase())
+
+        //console.log(nome)
+
+        var nome = prompt('Digite seu nome: ')
+
+        caracteres = nome.length
+        maiusc = nome.toUpperCase()
+        minusc = nome.toLowerCase()
+
+        document.write(`Seu nome tem ${caracteres} caracteres <br>`)
+        document.write(`Seu nome em maiúsculo é ${maiusc} <br>`)
+        document.write(`Seu nome em minúsculo é ${minusc} <br>`)
+        
+    </script>
+    
+</body>
+</html>

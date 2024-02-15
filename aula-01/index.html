@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01</title>
+
+    <style>
+        body{
+            background-color: rgb(149, 57, 255);
+            color: white;
+            text-align: center;
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!!</h1>
+    <a href="calculadora.html">calculadora</a>
+    <br>
+    <a href="texto.html">texto</a>
+    <br>
+    <p>Sem maldição KKKK</p>
+    <script>
+        //alert('Minha primeira msg ;)') msg de alerta
+        //prompt('Digite seu nome:') recebe algo
+        //confirm('Deseja sair?') recebe ok ou cancelar
+        /*
+        variaveis pode ser var ==> global
+        let ==> local
+        const ==> constante
+        */
+        
+        var nome = prompt('Digite seu nome:')
+        console.log('O nome é :'+ nome) 
+        console.log(typeof(nome))
+        alert('Bem-vindo ' + nome)
+
+        /*
+        conversao de valores
+        parseInt() -- converte para inteiro
+        parseFloat() -- número decimal
+        parseStrig() -- string n é usual
+        */
+
+        var idade = parseInt(prompt('Digite sua idade:'))
+        console.log('A idade é: '+ idade)
+        console.log(typeof(idade))
+        alert('Sua idade é '+ idade)
+    </script>
+
+</body>
+</html>
