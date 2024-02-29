@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Calculadora</h1>
+        <h1>CALCULADORA</h1>
 
-        <p>Digite o primeiro número:</p>
+        <h2>Digite o primeiro número:</h2>
         <input id="n1" name="n1" value="" type="float">
 
-        <p>Digite o segundo número:</p>
+        <h2>Digite o segundo número:</h2>
         <input id="n2" name="n2" value="" type="float">
 
         <h2>Escolha a operação:</h2>
@@ -26,7 +29,7 @@
         <button id="dividir" onclick="divisao()">Divisão</button>
         <button id="limpar" onclick="limpa()">Limpar</button>
 
-        <p>O resultado é: <span id="resultado">0</span></p>
+        <h2>O resultado é: <span id="resultado">0</span></h2>
     </div>
     
     <script src="js/calculadora.js"></script>
