@@ -29,10 +29,32 @@ h1{
 h2{
     font-size: 1.25em;
     padding-top: 1.5%;
-    padding-bottom: 1%;
+    padding-bottom: 1.5%;
 }
 
+button{
+    width: 120px;
+    background-color: #CD4D7D;
+    font-size: medium;
+    color:  #F7CBCC;
+    padding: 10px;
+    border: #CD4D7D;
+    border-radius: 10px;
+}
 
 button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 #7c083a, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #F7CBCC;
+    background-color:#F7CBCC;
+    border-radius: 6px;
+    padding: 1%;
+}
+
+input:focus{
+    border: none;
+    border-bottom: 2px solid #F7CBCC;
 }
