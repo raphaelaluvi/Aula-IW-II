@@ -26,7 +26,7 @@ function diagnostico(imc){
             valorDiag.innerHTML = 'Obeso grau II'
         }
     }
-    else if (genero == "fem"){
+    else if (genero == 'fem'){
         if(imc<19){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Abaixo do peso normal'
