@@ -1,0 +1,22 @@
+body{
+    background-color: #BF9BBF;
+    color: #260826;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #725173;
+    box-shadow: 0 10px 20px #593359;
+    border-radius: 10px;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.titulo{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #A580A6;
+}
