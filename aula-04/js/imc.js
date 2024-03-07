@@ -5,15 +5,15 @@ function diagnostico(imc){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Abaixo do peso normal'
         }
-        else if(20<=imc<25){
+        else if(20<=imc && imc<25){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Normal'
         }
-        else if(25<=imc<30){
+        else if(25<=imc && imc<30){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Levemente obeso'
         }
-        else if(30<=imc<35){
+        else if(30<=imc && imc<35){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Obeso grau I'
         }
@@ -31,15 +31,15 @@ function diagnostico(imc){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Abaixo do peso normal'
         }
-        else if(19<=imc<24){
+        else if(19<=imc && imc<24){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Normal'
         }
-        else if(24<=imc<29){
+        else if(24<=imc && imc<29){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Levemente obeso'
         }
-        else if(29<=imc<34){
+        else if(29<=imc && imc<34){
             diag.innerHTML = 'Diagnóstico:'
             valorDiag.innerHTML = 'Obeso grau I'
         }
