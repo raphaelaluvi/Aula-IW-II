@@ -57,11 +57,11 @@ function diagnostico(imc){
     }
 }
 
-function calcula(imc){
+function calcula(){
     var altura = parseFloat(document.getElementById('altura'). value)
     var peso = parseFloat(document.getElementById('peso'). value)
     var imc = peso/(altura*altura)
     resultado.innerHTML = 'Resultado:'
     valorIMC.innerHTML = 'Seu IMC é de '+ imc
-    diagnostico()
+    diagnostico(imc)
 }
