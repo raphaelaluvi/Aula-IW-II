@@ -1,22 +1,60 @@
 body{
-    background-color: #BF9BBF;
-    color: #260826;
+    font-family: "Roboto Slab", serif;
 }
 
-.container{
-    width: 50%;
-    height: 50%;
+.corbody{
+    background-color: #C881C7;
+}
+
+.containerdetalhe{
+    width: 40%;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
-    background-color: #725173;
+    background-color: #924490;
     box-shadow: 0 10px 20px #593359;
     border-radius: 10px;
     padding: 1.5%;
-    text-align: center;
+    text-align:left;
+}
+
+input, select{
+    background-color: #C881C7;
+    width: 100%;
+    padding: 1%;
+    margin:  0;
+    box-sizing: border-box;
+    border: 1px solid #3f083e;
+    border-radius: 4px;
+}
+
+button{
+    width: 100%;
+    background-color: #C881C7; 
+    color: #3f083e; 
+    padding: 1%;
+    border: 1px solid #3f083e;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3f083e;
+    color: #C881C7;
 }
 
 .titulo{
     font-weight: bold;
     text-shadow: 2px 2px 5px #A580A6;
+}
+
+.corletra{
+    color: #3f083e;
+}
+
+.resultado{
+    text-shadow: 2px 2px 5px #A580A6;
+    margin-top: 5%;
+    text-align: center;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }

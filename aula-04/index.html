@@ -5,30 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\bootstrap-grid.css">
+    <link rel="stylesheet" href="css\bootstrap.css">
     <title>Calculadora IMC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1 class="titulo">CALCULADORA IMC</h1>
-        <h2>Informe sua altura: (Ex: 1.70)</h2>
-        <input id="altura" name="altura" value="" type="float">
+<body class="corbody">
+    <div class="containerdetalhe">
+        <section>
+            <h1 class="titulo corletra">CALCULADORA IMC</h1>
+            <h4 class="corletra">Altura: (Ex: 1.70)</h4>
+            <input id="altura" name="altura" value="" type="float">
 
-        <h2>Informe seu peso: (Ex: 70)</h2>
-        <input id="peso" name="peso" value="" type="float">
+            <h4 class="corletra">Peso: (Ex: 70)</h4>
+            <input id="peso" name="peso" value="" type="float">
 
-        <h2>Informe seu gênero:</h2>
-        <select name="genero" id="genero">
-            <option value="">--</option>
-            <option value="masc">Masculino</option>
-            <option value="fem">Feminino</option>
-        </select>
+            <h4 class="corletra">Gênero:</h4>
+            <select name="genero" id="genero">
+                <option value="">--</option>
+                <option value="masc">Masculino</option>
+                <option value="fem">Feminino</option>
 
-        <button id="calcula" onclick="calcula()">CALCULAR</button>
+            </select>
+            <br>
+            <br>
+            <button id="calcula" onclick="calcula()">CALCULAR</button>
 
-        <h2 id="resultado"></h2>
-        <p id="valorIMC"></p>
-        <h2 id="diag"></h2>
-        <p id="valorDiag"></p>
+        </section>
+        
+
+        <section class="resultado">
+            <div class="row corletra">
+                <div class="col-6">
+                    <h2 id="resultado"></h2>
+                    <p id="valorIMC"></p>
+                </div>
+                <div class="col-6">
+                    <h2 id="diag"></h2>
+                    <p id="valorDiag"></p>
+                </div>
+            </div>
+            <div class="row">
+                <button id="reset" onclick="limpar()">Limpar</button>
+            </div>
+        </section>
+        
+        
+        
+        
     </div>
 
     <script src="js/imc.js"></script>

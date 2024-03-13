@@ -65,3 +65,12 @@ function calcula(){
     valorIMC.innerHTML = 'Seu IMC é de '+ imc
     diagnostico(imc)
 }
+
+function limpar(){
+    peso.value = ''
+    altura.value = ''
+    resultado.innerHTML = ''
+    valorIMC.innerHTML = ''
+    diag.innerHTML = ''
+    valorDiag.innerHTML = ''
+}
