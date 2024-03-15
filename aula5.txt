@@ -1,0 +1,77 @@
+1:
+	<h1>Interagindo com o usuário</h1>
+        <button id="comeca" onclick="comeca()">Clique para começar!</button>
+            <p id="msginicial"></p>
+
+            <h5 class="botaoNav"><a href="botao.html">Próximo</a></h5>
+2:
+	<h1>Interagindo com o usuário</h1>
+        <button id="botao1" onclick="botao1()">BOTÃO 1</button>
+        <button id="botao2" onclick="botao2()">BOTÃO 2</button>
+        <button id="botao3" onclick="botao3()">BOTÃO 3</button>
+    
+        <p id="msgbotoes"></p>
+    
+    
+        <h2><a href="index.html">Voltar</a></h2>
+        <h2><a href="botaocor.html">Próximo</a></h2>
+
+
+3:
+        <h1>Interagindo com o usuário</h1>
+
+        <p id="msgcores">Veja a cor que você clicou!!</p>
+    
+        <button id="vermelho" onclick="vermelho()">VERMELHO</button>
+        <button id="azul" onclick="azul()">AZUL</button>
+        <button id="verde" onclick="verde()">VERDE</button>
+    
+        <p id="msgbotoes"></p>
+    
+        <h2><a href="botao.html">Voltar</a></h2>
+        <h2><a href="troco.html">Próximo</a></h2>
+
+
+4:
+        <h1>Calculadora de troco</h1>
+        <button id="comprar" onclick="comprar()">COMPRAR PRODUTO</button>
+        <p id="msgtroco"></p>
+
+
+
+        <h2><a href="botaocor.html">Voltar</a></h2>
+        <h2><a href="troco2.html">Próximo</a></h2>
+
+
+5:
+
+        <h1>Calculadora de troco</h1>
+        <button id="comprar" onclick="compra2()">COMPRAR PRODUTO</button>
+        <p id="msgtroco2"></p>
+        <p id="msgrecebe"></p>
+        <p id="msgresult"></p>
+        <h2><a href="troco.html">Voltar</a></h2>
+        <h2><a href="salario.html">Próximo</a></h2>
+
+6:
+        <h1>Reajuste de salário</h1>
+        <button id="salario" onclick="reajuste()">REAJUSTAR SALÁRIO</button>
+        <p id="msgsalarioA"></p>
+        <p id="msgporcent"></p>
+        <p id="msgsalarioR"></p>
+    
+        <h2><a href="troco.html">Voltar</a></h2>
+        <h2><a href="bhaskara.html">Próximo</a></h2>
+
+
+7:
+<h1>Resolvendo Bhaskara</h1>
+        <p>Considerando uma equação do segundo grau ax²+bx+c=0, aperte o botão abaixo e calcule o valor de Δ</p>
+        <button id="calcula" onclick="delta()">CALCULAR</button>
+        <p id="msgEA"></p>
+        <p id="msgCalcR"></p>
+        <p id="msgValR"></p>
+    
+    
+        <h2><a href="salario.html">Voltar</a></h2>
+        <h2><a href="index.html">Início</a></h2>

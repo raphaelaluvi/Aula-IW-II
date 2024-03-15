@@ -4,18 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salário</title>
+    <title>Exercícios</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>Reajuste de salário</h1>
-    <button id="salario" onclick="reajuste()">REAJUSTAR SALÁRIO</button>
-    <p id="msgsalarioA"></p>
-    <p id="msgporcent"></p>
-    <p id="msgsalarioR"></p>
+<body class="detalheB">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Início</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="botao.html">Botões</a>
+                  <a class="nav-link" href="botaocor.html">Botões cor</a>
+                  <a class="nav-link" href="troco.html">Compra</a>
+                  <a class="nav-link" href="troco2.html">Troco</a>
+                  <a class="nav-link" href="salario.html">Salário</a>
+                  <a class="nav-link" href="bhaskara.html">Bhaskara</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
 
-    <h2><a href="troco.html">Voltar</a></h2>
-    <h2><a href="bhaskara.html">Próximo</a></h2>
+    <div class="container text-center">
+        <section class="shadow">
+          <h1>Reajuste de salário</h1>
+          <button id="salario" onclick="reajuste()">REAJUSTAR SALÁRIO</button>
+          <p id="msgsalarioA"></p>
+          <p id="msgporcent"></p>
+          <p id="msgsalarioR"></p>
+        
+          <h2><a href="troco.html">Voltar</a></h2>
+          <h2><a href="bhaskara.html">Próximo</a></h2>
+        </section>
+
+        
+        
+    </div>
 
     <script src="js/exercicios.js"></script>
 </body>

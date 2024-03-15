@@ -1,0 +1,43 @@
+.detalheB{
+    color: #ADCAE1;
+    background-color: #ADCAE1;
+}
+
+.shadow{
+    background-color: #00396B;
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: #5995B1;
+    padding: 2%;
+}
+
+button{
+    width: 50%;
+    background-color: #ADCAE1; 
+    color: #00396B; 
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid #001E4C;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #001E4C;
+    color: #ADCAE1;
+}
+
+.botaoNav{
+    width: 20%;
+    background-color: #ADCAE1; 
+    color: #00396B; 
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid #001E4C;
+    border-radius: 4px;
+}
+
+.botaoNav:hover {
+    background-color: #001E4C;
+    color: #ADCAE1;
+}
