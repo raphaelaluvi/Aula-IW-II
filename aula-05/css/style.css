@@ -28,7 +28,7 @@ button:hover {
 }
 
 .botaoNav{
-    width: 20%;
+    width: 100%;
     background-color: #ADCAE1; 
     color: #00396B; 
     margin: 2%;
@@ -40,4 +40,16 @@ button:hover {
 .botaoNav:hover {
     background-color: #001E4C;
     color: #ADCAE1;
+}
+
+#vermelho:hover{
+    background-color: red;
+}
+
+#azul:hover{
+    background-color: blue;
+}
+
+#verde:hover{
+    background-color: green;
 }

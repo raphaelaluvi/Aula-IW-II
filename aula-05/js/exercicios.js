@@ -75,6 +75,7 @@ function delta(){
     var resulDelta = (valorB * valorB) - (4 * valorA * valorC)
 
     msgEA.innerHTML = 'A equação atual é de ' + valorA + 'x²' + valorB + 'x' + valorC + '=0'
+    msgCalcR.innerHTML = 'A conta realializada foi de Δ=' + valorB + '² - 4.' + valorA + '.' + valorC
     msgValR.innerHTML = 'O resultado de Δ é de ' + resulDelta
 }
     
