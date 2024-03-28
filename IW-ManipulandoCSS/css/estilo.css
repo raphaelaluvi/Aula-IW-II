@@ -55,6 +55,26 @@ button {
     color: #fff;
 }
 
+#btpink{
+    background: rgb(255, 0, 183);
+    color: #fff;
+}
+
+#btblue{
+    background: rgb(0, 30, 152);
+    color: #fff;
+}
+
+#btyellow{
+    background: rgb(255, 208, 0);
+    color: #fff;
+}
+
+#btred{
+    background: rgb(255, 10, 10);
+    color: #fff;
+}
+
 /* articles com a class box */
 .box {
     padding: 0.625rem;
@@ -72,8 +92,13 @@ button {
     color: #fff;
 }
 
-.azul {
-    background: #1a237e;
+.pink{
+    background: rgb(255, 0, 183);
+    color: #fff;
+}
+
+.blue {
+    background: rgb(0, 30, 152);
     color: #fff;
 }
 
@@ -83,7 +108,13 @@ button {
     border-radius: 5px;
     padding: 0.625rem;
 }
-.amarelo {
+
+.yellow {
     background: #ffc107;
+    color: #fff;
+}
+
+.red{
+    background: rgb(255, 10, 10);
     color: #fff;
 }
