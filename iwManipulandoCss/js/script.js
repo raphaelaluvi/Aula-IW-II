@@ -1,11 +1,9 @@
 /* Arquivo JS + alterar CSS */
 
 let titulo = document.querySelector('h1')
-//titulo.textContent = 'Aula 09 Manipular CSS'
-//titulo.innerHTML = 'Aula Manipular CSS'
 let imagem = document.querySelector('#foto')
-imagem.setAttribute('src', 'img/pride-fc.jpg')
-imagem.setAttribute('width', '280px')
+imagem.setAttribute('src', 'img/branco.jpg')
+let descricao = document.querySelector('h2')
 
 /* MANIPULAR CSS */
 //document.querySelector('h1').style.color = "red";
@@ -15,11 +13,8 @@ imagem.setAttribute('width', '280px')
 //titulo.style.padding = "0.625rem";
 //titulo.style.borderRadius = "5px";
 
-let box = document.querySelectorAll('.box')
-//box[0].setAttribute('class', 'escura')
-//box[0].removeAttribute('class')
-
 /////// MODOS DE COR ///////
+
 let tela = document.querySelector('main')
 
 let btnDark = document.querySelector('#btdark')
@@ -34,12 +29,19 @@ let btnYellow = document.querySelector('#btyellow')
 
 let btnRed= document.querySelector('#btred')
 
+let btnGreen= document.querySelector('#btgreen')
+
+let btnPurple= document.querySelector('#btpurple')
+
+
 btnDark.addEventListener('click', modoDark)
 btnLight.addEventListener('click', modoLight)
 btnPink.addEventListener('click', modoPink)
 btnBlue.addEventListener('click', modoBlue)
 btnYellow.addEventListener('click', modoYellow)
 btnRed.addEventListener('click', modoRed)
+btnGreen.addEventListener('click', modoGreen)
+btnPurple.addEventListener('click', modoPurple)
 
 
 function modoDark() {
@@ -51,6 +53,10 @@ function modoDark() {
     tela.classList.remove("blue")
     tela.classList.remove("yellow")
     tela.classList.remove("red")
+    tela.classList.remove("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/preto.jpg'
+    descricao.textContent = 'Divertidamente'
 }
 
 function modoLight() {
@@ -62,6 +68,10 @@ function modoLight() {
     tela.classList.remove("blue")
     tela.classList.remove("yellow")
     tela.classList.remove("red")
+    tela.classList.remove("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/branco.jpg'
+    descricao.textContent = 'Divertidamente'
 }
 
 function modoPink() {
@@ -73,6 +83,10 @@ function modoPink() {
     tela.classList.remove("blue")
     tela.classList.remove("yellow")
     tela.classList.remove("red")
+    tela.classList.remove("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/rosa.jpg'
+    descricao.textContent = 'Bing Bong'
 }
 
 function modoBlue() {
@@ -84,6 +98,10 @@ function modoBlue() {
     tela.classList.add("blue")
     tela.classList.remove("yellow")
     tela.classList.remove("red")
+    tela.classList.remove("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/azul.jpg'
+    descricao.textContent = 'Tristeza'
 }
 
 function modoYellow() {
@@ -95,6 +113,10 @@ function modoYellow() {
     tela.classList.remove("blue")
     tela.classList.add("yellow")
     tela.classList.remove("red")
+    tela.classList.remove("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/amarelo.jpg'
+    descricao.textContent = 'Alegria'
 }
 
 function modoRed() {
@@ -106,12 +128,38 @@ function modoRed() {
     tela.classList.remove("blue")
     tela.classList.remove("yellow")
     tela.classList.add("red")
+    tela.classList.remove("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/vermelho.jpg'
+    descricao.textContent = 'Raiva'
 }
 
-/*
-titulo.addEventListener('click', mudarId)
-function mudarId() {
-    titulo.id = 'titulo'
-    console.log(titulo.id)
+function modoGreen() {
+    event.preventDefault()
+    console.log('modo yellow')
+    tela.classList.remove("dark")
+    tela.classList.remove("light")
+    tela.classList.remove("pink")
+    tela.classList.remove("blue")
+    tela.classList.remove("yellow")
+    tela.classList.remove("red")
+    tela.classList.add("green")
+    tela.classList.remove("purple")
+    imagem.src = 'img/verde.jpg'
+    descricao.textContent = 'Nojinho'
 }
-*/
+
+function modoPurple() {
+    event.preventDefault()
+    console.log('modo yellow')
+    tela.classList.remove("dark")
+    tela.classList.remove("light")
+    tela.classList.remove("pink")
+    tela.classList.remove("blue")
+    tela.classList.remove("yellow")
+    tela.classList.remove("red")
+    tela.classList.remove("green")
+    tela.classList.add("purple")
+    imagem.src = 'img/roxo.jpg'
+    descricao.textContent = 'Medo'
+}

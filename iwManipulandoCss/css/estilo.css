@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #ccc;
+}
+
+main {
+    min-width: 960px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+}
+
+img{
+    width: 40%;
+}
+
+#botoes {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* botoes */
+button {
+    cursor: pointer;
+    background-color: #CD4D7D;
+    color:  #F7CBCC;
+    width: 100px;
+    padding: 0.8%;
+    text-align: center;
+    display: inline;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    border: #CD4D7D;
+    border-radius: 10px;
+}
+
+/* botao light */
+#btlight {
+    background: #ededed;
+    color: #000002;
+}
+
+#btlight:hover{
+    box-shadow: 0 4px 6px 0 #000000;
+}
+
+/* botao dark */
+#btdark {
+    background-color: #000000;
+    color: #fff;
+}
+
+#btdark:hover{
+    box-shadow: 0 4px 6px 0 #ffffff;
+}
+
+#btpink{
+    background: #BF6F9B;
+    color: #461630;
+}
+
+#btpink:hover{
+    box-shadow: 0 4px 6px 0 #BF6F9B;
+}
+
+#btblue{
+    background: #020161;
+    color: #6c6afd;
+}
+
+#btblue:hover{
+    box-shadow: 0 4px 6px 0 #020161;
+}
+
+#btyellow{
+    background: #EEB71C;
+    color: #946e05;
+}
+
+#btyellow:hover{
+    box-shadow: 0 4px 6px 0 #EEB71C;
+}
+
+#btred{
+    background: #8C160B;
+    color: #ff5e50;
+}
+
+#btred:hover{
+    box-shadow: 0 4px 6px 0 #8C160B;
+}
+
+#btgreen{
+    background: #396C29;
+    color: #76b961;
+}
+
+#btgreen:hover{
+    box-shadow: 0 4px 6px 0 #396C29;
+}
+
+#btpurple{
+    background: #683D85;
+    color: #c382ee;
+}
+
+#btpurple:hover{
+    box-shadow: 0 4px 6px 0 #683D85;
+}
+
+
+/* articles com a class box */
+.box {
+    padding: 0.625rem;
+    border-radius: 8px;
+}
+
+/* Estilos para serem usados via JS */
+.light {
+    background: #fff;
+    color: #000002;
+}
+
+.dark {
+    background: #000002;
+    color: #fff;
+}
+
+.pink{
+    background: #BF6F9B;
+    color: #461630;
+}
+
+.blue {
+    background: #020161;
+    color: #6c6afd;
+}
+
+.yellow {
+    background: #EEB71C;
+    color: #946e05;
+}
+
+.red{
+    background: #8C160B;
+    color: #eb3a2a;
+}
+
+.green{
+    background: #396C29;
+    color: #76b961;
+}
+
+.purple{
+    background: #683D85;
+    color: #c382ee;
+}
